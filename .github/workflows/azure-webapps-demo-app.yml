@@ -74,6 +74,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'ck-app-name'
+          app-name: azuredemoserious20221209
           publish-profile: ${{ secrets.AZURE_BEP_PUBLISH_PROFILE }}
           package: '*.jar'
